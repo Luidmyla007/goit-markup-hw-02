@@ -13,7 +13,7 @@
     --accent-text-color: #FFFFFF;
     --accent-background-color: #2F303A;
     --background-color: #F5F5F5;
-        
+    --color1: #F5F4FA;      
 
 }
 
@@ -25,11 +25,11 @@ color: var(--primary-text-color);
 .list{list-style: none;}
 /* header styles */
 .logo{font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 .logo-first{
     color: var(--accent-color);
@@ -82,6 +82,7 @@ color: var(--accent-color);
         text-align: center;
         letter-spacing: 0.06em;
 }
+
 .hidden-title{
     color: var(--background-color);
 }
@@ -94,7 +95,6 @@ color: var(--accent-color);
         letter-spacing: 0.03em;
 }
 .title-decoding{
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -104,11 +104,33 @@ color: var(--accent-color);
         
             font-weight: 700;
             font-size: 36px;
-            line-height: 42px;
+            line-height: 1.17;
             text-align: center;
             letter-spacing: 0.03em;
 }
- 
+
+.team{
+    background-color: var(--color1);
+} 
+.title-name{
+    color: var(--title-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+align-items: center;
+vertical-align: top;
+letter-spacing: 0.03em;
+}
+.qualification{
+font-size: 16px;
+line-height: 1.2;
+align-items: center;
+vertical-align: top;
+letter-spacing: 0.03em;
+}
+
+
+
 /*main Portfolio styles*/
 button{
    font-family: inherit;
@@ -129,7 +151,8 @@ button:hover, button:focus {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 16px;
-    line-height: 2    
+    line-height: 2;
+    letter-spacing: 0.06em;   
 }
 
 .picture-title-kind{
@@ -149,9 +172,9 @@ footer{
 .footer-link{
     color: var(--accent-text-color);
     font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
+letter-spacing: 0.03em;
 text-decoration: none;
 }
 
