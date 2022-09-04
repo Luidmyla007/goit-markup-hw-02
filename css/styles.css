@@ -23,7 +23,9 @@ color: var(--primary-text-color);
 
 }
 .list{list-style: none;}
+
 /* header styles */
+
 .logo{font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -47,41 +49,57 @@ color: var(--primary-text-color);
         line-height: 1.14;
         letter-spacing: 0.02em;
     text-decoration: none;
+
 }
-.header-link:hover, .header-link:focus, .header-link-contact:hover, .header-link-contact:focus{
+
+.header-link:hover, .header-link:focus {
 color: var(--accent-color);
 }
+.header-link:active{
+    color: var(--accent-color);
+}
+
 .header-link-contact{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.header-link-contact:hover, .header-link-contact:focus {
+color: var(--accent-color);
+
 }
 
 /* main index styles */
 /* hero */
 .slogan{
     background-color: var(--accent-background-color);
-    color: var(--accent-text-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1,4;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
-.order{
-    background-color: var(--accent-color);
+.slogan-title{   
     color: var(--accent-text-color);
         font-weight: 700;
-        font-size: 16px;
-        line-height: 1,9;
+        font-size: 44px;
+        line-height: 1.4;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
 }
+
+
+.order{
+    background-color: var(--accent-color);
+    color: var(--accent-text-color);
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+align: center;
+vertical-align: center;
+Letter spacing: 0.06;
+    }
+ 
 
 .hidden-title{
     color: var(--background-color);
@@ -132,13 +150,17 @@ letter-spacing: 0.03em;
 
 
 /*main Portfolio styles*/
-button{
-   font-family: inherit;
-    background-color: #F5F4FA;
+.choice{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    vertical-align: top;
+    letter-spacing: 0.03
+    background-color: var(--color1);
     color: var(--title-text-color);
     cursor: pointer;
 }
-button:hover, button:focus {
+.choice:hover, .choice:focus {
     background-color: var(--accent-color);
     color: var(--accent-text-color);
 }
@@ -157,7 +179,7 @@ button:hover, button:focus {
 
 .picture-title-kind{
     color: var(--primary-text-color);
-    font-weight: 700;
+    font-weight: 400;
     font-size: 18px;
     line-height: 2 
 }
@@ -176,6 +198,20 @@ font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 text-decoration: none;
+}
+
+.footer-link-contact{
+    color: var(--accent-text-color);
+    opacity: 0.6;
+    font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+
+.footer-link-contact:hover, .footer-link-contact:focus {
+    color: var(--accent-color);
 }
 
 .footer-link:hover, .footer-link:focus {
